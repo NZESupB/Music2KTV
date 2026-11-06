@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TV 启动器横幅 320x180，正式素材在设计稿确认后替换 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path
+        android:fillColor="#1C1046"
+        android:pathData="M0,0h320v180h-320z" />
+    <path
+        android:fillColor="#FF4FD8"
+        android:pathData="M148,48a12,12 0,0 1,24 0v40a12,12 0,0 1,-24 0z" />
+    <path
+        android:fillColor="#3FE0FF"
+        android:pathData="M136,84h6a18,18 0,0 0,36 0h6a24,24 0,0 1,-21 23.8v17.2h-6v-17.2a24,24 0,0 1,-21 -23.8z" />
+</vector>

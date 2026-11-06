@@ -1,0 +1,38 @@
+# Gradle / 构建产物
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本机配置（含 SDK 绝对路径，禁止入库）
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.hprof
+
+# 签名材料与凭据 —— 绝不可入库
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
+
+# APK / AAB 产物
+*.apk
+*.aab
+*.ap_
+output-metadata.json
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 代理/会话临时文件
+.agents/skills/.skill-learning/queue/
+.agents/skills/.skill-learning/*.json
+.agents/skills/.skill-learning/enqueue.log
